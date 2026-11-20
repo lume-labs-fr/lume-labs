@@ -1,0 +1,13 @@
+SITE LUME LABS — À FAIRE AVANT LA MISE EN LIGNE
+1. mentions-legales.html : remplacer NOM PRÉNOM, ADRESSE, NUMÉRO SIRET et l'hébergeur.
+2. Vérifier l'adresse contact@lumelabs.fr (toutes les pages + formulaire).
+3. Le site suppose le domaine https://lumelabs.fr (balises canonical, sitemap.xml, robots.txt).
+4. Formulaire Tally : dans chaque page .html, chercher  const TALLY_ID = '';
+   et mettre entre les guillemets l'identifiant de ton formulaire (la fin du lien tally.so/r/XXXXXX).
+   Tant que c'est vide, le formulaire intégré (qui ouvre la messagerie) reste affiché.
+5. GitHub Pages : mettre tout le contenu de ce dossier à la racine d'un dépôt public,
+   puis Settings > Pages > Deploy from a branch > main > / (root).
+   Le fichier CNAME relie le site à lumelabs.fr (DNS à configurer chez ton registraire).
+   404.html est utilisée automatiquement. Le fichier .nojekyll évite tout traitement par Jekyll.
+   Mentions légales, hébergeur : GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.
+6. Déclarer le site dans Google Search Console et y envoyer sitemap.xml.

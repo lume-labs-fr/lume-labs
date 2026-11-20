@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grigne, logiciel de gestion et de marges pour boulangerie</title>
+<meta name="description" content="Grigne, logiciel de gestion pour boulangerie : prix de revient de chaque recette, marges par produit et effet des hausses de matières premières.">
+<link rel="canonical" href="https://lumelabs.fr/grigne.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="product">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Lume Labs">
+<meta property="og:title" content="Grigne, logiciel de gestion et de marges pour boulangerie">
+<meta property="og:description" content="Grigne, logiciel de gestion pour boulangerie : prix de revient de chaque recette, marges par produit et effet des hausses de matières premières.">
+<meta property="og:url" content="https://lumelabs.fr/grigne.html">
+<meta property="og:image" content="https://lumelabs.fr/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo Lume Labs : une ligne de commande avec un curseur ambre">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1F2A30">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://lumelabs.fr/#org", "name": "Lume Labs", "url": "https://lumelabs.fr/", "logo": "https://lumelabs.fr/apple-touch-icon.png", "email": "contact@lumelabs.fr", "description": "Éditeur de logiciels de gestion pensés pour un métier : Grigne pour les boulangeries, IncoPilot pour les fournisseurs de produits d'incontinence."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Grigne", "url": "https://lumelabs.fr/grigne.html", "applicationCategory": "BusinessApplication", "applicationSubCategory": "Gestion de boulangerie", "operatingSystem": "Web", "inLanguage": "fr", "description": "Grigne, logiciel de gestion pour boulangerie : prix de revient de chaque recette, marges par produit et effet des hausses de matières premières.", "publisher": {"@id": "https://lumelabs.fr/#org"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lumelabs.fr/"}, {"@type": "ListItem", "position": 2, "name": "Grigne", "item": "https://lumelabs.fr/grigne.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Grigne remplace-t-il ma caisse enregistreuse ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Grigne s'occupe de vos recettes, de vos prix de revient et de vos marges. Il complète votre caisse, il ne la remplace pas."}}, {"@type": "Question", "name": "Faut-il être à l'aise avec l'informatique ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Grigne est pensé pour être utilisé entre deux fournées. Et la mise en route se fait avec vous : nous saisissons ensemble vos premières recettes."}}, {"@type": "Question", "name": "Combien coûte Grigne ?", "acceptedAnswer": {"@type": "Answer", "text": "Le tarif dépend de la taille de votre boulangerie. Il vous est présenté pendant la démo, sans engagement."}}, {"@type": "Question", "name": "Grigne convient-il aux boulangeries avec plusieurs boutiques ?", "acceptedAnswer": {"@type": "Answer", "text": "Parlons-en pendant la démo : nous regarderons ensemble comment Grigne s'adapte à votre organisation."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+<div class="wrap">
+<a class="brand" href="index.html" aria-label="Lume Labs, retour à l'accueil"><svg xmlns="http://www.w3.org/2000/svg" viewBox="54 54 728 182" class="logo-svg" aria-hidden="true" focusable="false"><path d="M60.0 194.0V173.6L119.8 145.0Q123.8 143.2 127.4 142.0Q131.0 140.8 132.8 140.39999999999998Q130.8 140.0 127.10000000000001 138.7Q123.4 137.39999999999998 119.8 135.6L60.0 107.0V86.19999999999999L147.60000000000002 128.8V151.4Z" class="lg-p"/><path d="M287.6 206.0Q277.40000000000003 206.0 269.80000000000007 201.9Q262.20000000000005 197.8 257.90000000000003 190.2Q253.60000000000002 182.6 253.60000000000002 172.6V79.6H217.60000000000002V60.0H275.20000000000005V172.6Q275.20000000000005 179.0 278.80000000000007 182.7Q282.40000000000003 186.4 288.6 186.4H322.6V206.0Z" class="lg-t"/><path d="M385.6 208.0Q365.8 208.0 354.0 196.5Q342.2 185.0 342.2 165.2V96.0H363.8V165.2Q363.8 176.6 369.6 182.89999999999998Q375.40000000000003 189.2 385.6 189.2Q396.0 189.2 401.9 182.89999999999998Q407.8 176.6 407.8 165.2V96.0H429.40000000000003V165.2Q429.40000000000003 185.0 417.5 196.5Q405.6 208.0 385.6 208.0Z" class="lg-t"/><path d="M451.6 206.0V96.0H469.6V110.0H470.8Q471.8 103.6 475.6 99.39999999999999Q480.6 94.0 489.0 94.0Q498.0 94.0 503.0 101.0Q505.6 104.8 506.8 110.0H507.6Q508.6 103.6 512.6 99.39999999999999Q517.6 94.0 526.2 94.0Q536.4 94.0 542.2 101.69999999999999Q548.0 109.39999999999999 548.0 122.19999999999999V206.0H528.8V122.8Q528.8 116.6 526.0999999999999 113.19999999999999Q523.4 109.8 518.4 109.8Q513.4 109.8 510.7 113.1Q508.0 116.39999999999999 508.0 122.6V206.0H491.8V122.8Q491.8 116.39999999999999 489.0 113.1Q486.20000000000005 109.8 481.0 109.8Q476.0 109.8 473.5 113.1Q471.0 116.39999999999999 471.0 122.6V206.0Z" class="lg-t"/><path d="M613.8 208.0Q600.4 208.0 590.3 202.7Q580.1999999999999 197.4 574.8 187.8Q569.4 178.2 569.4 165.4V136.6Q569.4 123.6 574.8 114.1Q580.1999999999999 104.6 590.3 99.3Q600.4 94.0 613.8 94.0Q627.4 94.0 637.4 99.3Q647.4 104.6 652.8 114.1Q658.1999999999999 123.6 658.1999999999999 136.6V156.2H590.1999999999999V165.4Q590.1999999999999 177.6 596.3 184.0Q602.4 190.4 614.0 190.4Q623.4 190.4 629.2 187.10000000000002Q635.0 183.8 636.4 177.4H657.8Q655.4 191.4 643.4 199.7Q631.4 208.0 613.8 208.0ZM637.4 141.39999999999998V136.39999999999998Q637.4 124.39999999999999 631.4 117.79999999999998Q625.4 111.19999999999999 613.8 111.19999999999999Q602.4 111.19999999999999 596.3 117.79999999999998Q590.1999999999999 124.39999999999999 590.1999999999999 136.6V141.6Z" class="lg-t"/><path class="lg-c" d="M679.8 229.8V211.0H775.8V229.8Z"/></svg></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+<nav class="nav" id="nav" aria-label="Navigation principale">
+<a href="grigne.html" aria-current="page">Grigne</a>
+<a href="incopilot.html">IncoPilot</a>
+<a href="index.html#histoire">Notre histoire</a>
+<a class="btn btn-main" href="#demo">Demander une démo</a>
+</nav>
+</div>
+</header>
+<main id="contenu">
+<section class="band hero" aria-labelledby="h1">
+<div class="wrap">
+<nav class="crumbs" aria-label="Fil d'Ariane"><ol><li><a href="index.html">Accueil</a></li><li aria-current="page">Grigne</li></ol></nav>
+<div class="p-hero">
+<div>
+<p class="p-word"><i style="background:var(--croute)" aria-hidden="true"></i>Grigne</p>
+<h1 id="h1">Le logiciel de gestion pour boulangerie qui calcule vos marges</h1>
+<p class="lead">Grigne calcule le prix de revient de chaque recette et vous montre ce que rapporte vraiment chaque produit. Pour fixer vos prix avec des chiffres, pas à l’intuition.</p>
+<div class="cta-row"><a class="btn btn-main" href="#demo">Demander une démo <span class="mono" aria-hidden="true">&gt;_</span></a><a class="btn btn-ghost" href="#fonctions">Ce que fait Grigne</a></div>
+</div>
+<div class="window" style="border-radius:20px;margin-top:0" role="img" aria-label="Exemple de fiche recette dans Grigne : prix de revient d'une baguette tradition">
+<div class="win-bar" aria-hidden="true"><i></i><i></i><i></i><span>&gt; grigne</span><span class="blink">_</span></div>
+<div class="screen" aria-hidden="true">
+<div class="screen-top"><p class="t">Baguette tradition</p><span class="tag tag-g">Fiche recette</span></div>
+<ul class="rows">
+<li class="row"><span>Farine T65</span><span class="bar"><b style="width:35%"></b></span><span class="v">0,11 €</span></li>
+<li class="row"><span>Levain, sel, eau</span><span class="bar"><b style="width:10%"></b></span><span class="v">0,03 €</span></li>
+<li class="row"><span>Énergie du four</span><span class="bar"><b style="width:19%"></b></span><span class="v">0,06 €</span></li>
+<li class="row"><span>Main-d’œuvre</span><span class="bar"><b style="width:36%"></b></span><span class="v">0,11 €</span></li>
+</ul>
+<div class="screen-top" style="border-top:1px solid #3A4950;padding-top:14px"><span>Prix de revient</span><span class="mono" style="font-size:18px">0,31 €</span></div>
+<div class="screen-top"><span>Prix de vente HT</span><span class="mono" style="font-size:18px">1,23 €</span></div>
+<div class="big">75 %<small>de marge</small></div>
+</div>
+<p class="sample">Fiche d’exemple, chiffres fictifs.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="band alt" id="fonctions" aria-labelledby="fonctions-t">
+<div class="wrap">
+<div class="sec-head"><h2 id="fonctions-t">Ce que Grigne fait pour votre boulangerie</h2><p class="lead">Les chiffres que vous calculiez à la main, ou que vous ne calculiez pas faute de temps.</p></div>
+<div class="feat">
+<article><h3>Le prix de revient de chaque recette</h3><p>Ingrédients, énergie, main-d’œuvre : Grigne additionne tout et vous donne le coût réel d’une baguette, d’un croissant ou d’un entremets.</p></article>
+<article><h3>Vos marges, produit par produit</h3><p>Voyez d’un coup d’œil les produits qui rapportent et ceux qui vous coûtent. De quoi revoir un prix ou une recette en connaissance de cause.</p></article>
+<article><h3>Les hausses de matières premières, chiffrées</h3><p>Le prix du beurre ou de la farine augmente ? Mettez-le à jour une fois, Grigne recalcule toutes les recettes concernées.</p></article>
+<article><h3>Une vue claire de la semaine</h3><p>Un tableau de bord simple pour suivre vos marges dans le temps, sans tableur ni formule.</p></article>
+</div>
+</div>
+</section>
+
+<section class="band" aria-labelledby="pourqui-t">
+<div class="wrap">
+<h2 id="pourqui-t" style="margin-bottom:32px">Grigne est-il fait pour vous ?</h2>
+<div class="who">
+<div><h3>Oui, si…</h3><ul><li>vous êtes boulanger ou boulanger-pâtissier indépendant ;</li><li>vous ne connaissez pas précisément la marge de chaque produit ;</li><li>vous voulez ajuster vos prix sans y passer vos soirées.</li></ul></div>
+<div><h3>Ce que Grigne n’est pas</h3><ul><li>Ce n’est pas une caisse enregistreuse.</li><li>Ce n’est pas un logiciel de comptabilité : il complète le travail de votre comptable.</li></ul></div>
+</div>
+</div>
+</section>
+<section class="band alt" id="questions-grigne" aria-labelledby="questions-grigne-t">
+<div class="wrap faq-grid">
+<div>
+<h2 id="questions-grigne-t">Questions sur Grigne</h2>
+<p class="lead">Ce qu’il faut savoir avant de demander une démo.</p>
+<p class="ask">Une autre question ? <a href="#demo">Écrivez-nous</a></p>
+</div>
+<div class="faq"><details><summary>Grigne remplace-t-il ma caisse enregistreuse ?</summary><p>Non. Grigne s’occupe de vos recettes, de vos prix de revient et de vos marges. Il complète votre caisse, il ne la remplace pas.</p></details><details><summary>Faut-il être à l’aise avec l’informatique ?</summary><p>Non. Grigne est pensé pour être utilisé entre deux fournées. Et la mise en route se fait avec vous : nous saisissons ensemble vos premières recettes.</p></details><details><summary>Combien coûte Grigne ?</summary><p>Le tarif dépend de la taille de votre boulangerie. Il vous est présenté pendant la démo, sans engagement.</p></details><details><summary>Grigne convient-il aux boulangeries avec plusieurs boutiques ?</summary><p>Parlons-en pendant la démo : nous regarderons ensemble comment Grigne s’adapte à votre organisation.</p></details></div>
+</div>
+</section>
+<section class="band dark" id="demo" aria-labelledby="demo-t">
+<div class="wrap contact">
+<div>
+<h2 id="demo-t">Demandez une démo</h2>
+<p class="lead">Vingt minutes, en visio ou par téléphone, pour voir si Grigne vous convient. Sans engagement.</p>
+<p class="contact-direct">Vous préférez écrire ? <a href="mailto:contact@lumelabs.fr">contact@lumelabs.fr</a></p>
+</div>
+<div class="tally-slot" data-produit="Grigne"></div>
+<form class="form" novalidate>
+<input type="hidden" name="produit" value="Grigne">
+<div class="field"><label for="f-nom">Nom</label><input id="f-nom" name="nom" autocomplete="name" required></div>
+<div class="field"><label for="f-ent">Entreprise</label><input id="f-ent" name="entreprise" autocomplete="organization" required></div>
+<div class="field"><label for="f-mail">E-mail</label><input id="f-mail" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="f-tel">Téléphone <span>(facultatif)</span></label><input id="f-tel" name="tel" type="tel" autocomplete="tel"></div>
+<div class="field full"><label for="f-met">Votre activité</label><select id="f-met" name="metier"><option selected>Boulangerie, pâtisserie</option><option>Fournisseur de produits d’incontinence</option><option>Autre activité</option></select></div>
+<div class="field full"><label for="f-msg">Votre message <span>(facultatif)</span></label><textarea id="f-msg" name="message"></textarea></div>
+<button class="btn btn-main" type="submit">Demander ma démo <span class="mono" aria-hidden="true">&gt;_</span></button>
+<p class="form-note">Vos informations servent uniquement à vous recontacter. Elles ne sont ni revendues ni partagées.</p>
+<div class="form-done" tabindex="-1" role="status">Votre messagerie va s’ouvrir avec votre demande déjà rédigée. Si rien ne s’ouvre, <a href="mailto:contact@lumelabs.fr">cliquez ici</a> ou écrivez à contact@lumelabs.fr.</div>
+</form>
+</div>
+</section>
+</main>
+<footer class="foot">
+<div class="wrap">
+<div>
+<a class="brand" href="index.html" aria-label="Lume Labs, retour à l'accueil"><svg xmlns="http://www.w3.org/2000/svg" viewBox="54 54 728 182" class="logo-svg" aria-hidden="true" focusable="false"><path d="M60.0 194.0V173.6L119.8 145.0Q123.8 143.2 127.4 142.0Q131.0 140.8 132.8 140.39999999999998Q130.8 140.0 127.10000000000001 138.7Q123.4 137.39999999999998 119.8 135.6L60.0 107.0V86.19999999999999L147.60000000000002 128.8V151.4Z" class="lg-p"/><path d="M287.6 206.0Q277.40000000000003 206.0 269.80000000000007 201.9Q262.20000000000005 197.8 257.90000000000003 190.2Q253.60000000000002 182.6 253.60000000000002 172.6V79.6H217.60000000000002V60.0H275.20000000000005V172.6Q275.20000000000005 179.0 278.80000000000007 182.7Q282.40000000000003 186.4 288.6 186.4H322.6V206.0Z" class="lg-t"/><path d="M385.6 208.0Q365.8 208.0 354.0 196.5Q342.2 185.0 342.2 165.2V96.0H363.8V165.2Q363.8 176.6 369.6 182.89999999999998Q375.40000000000003 189.2 385.6 189.2Q396.0 189.2 401.9 182.89999999999998Q407.8 176.6 407.8 165.2V96.0H429.40000000000003V165.2Q429.40000000000003 185.0 417.5 196.5Q405.6 208.0 385.6 208.0Z" class="lg-t"/><path d="M451.6 206.0V96.0H469.6V110.0H470.8Q471.8 103.6 475.6 99.39999999999999Q480.6 94.0 489.0 94.0Q498.0 94.0 503.0 101.0Q505.6 104.8 506.8 110.0H507.6Q508.6 103.6 512.6 99.39999999999999Q517.6 94.0 526.2 94.0Q536.4 94.0 542.2 101.69999999999999Q548.0 109.39999999999999 548.0 122.19999999999999V206.0H528.8V122.8Q528.8 116.6 526.0999999999999 113.19999999999999Q523.4 109.8 518.4 109.8Q513.4 109.8 510.7 113.1Q508.0 116.39999999999999 508.0 122.6V206.0H491.8V122.8Q491.8 116.39999999999999 489.0 113.1Q486.20000000000005 109.8 481.0 109.8Q476.0 109.8 473.5 113.1Q471.0 116.39999999999999 471.0 122.6V206.0Z" class="lg-t"/><path d="M613.8 208.0Q600.4 208.0 590.3 202.7Q580.1999999999999 197.4 574.8 187.8Q569.4 178.2 569.4 165.4V136.6Q569.4 123.6 574.8 114.1Q580.1999999999999 104.6 590.3 99.3Q600.4 94.0 613.8 94.0Q627.4 94.0 637.4 99.3Q647.4 104.6 652.8 114.1Q658.1999999999999 123.6 658.1999999999999 136.6V156.2H590.1999999999999V165.4Q590.1999999999999 177.6 596.3 184.0Q602.4 190.4 614.0 190.4Q623.4 190.4 629.2 187.10000000000002Q635.0 183.8 636.4 177.4H657.8Q655.4 191.4 643.4 199.7Q631.4 208.0 613.8 208.0ZM637.4 141.39999999999998V136.39999999999998Q637.4 124.39999999999999 631.4 117.79999999999998Q625.4 111.19999999999999 613.8 111.19999999999999Q602.4 111.19999999999999 596.3 117.79999999999998Q590.1999999999999 124.39999999999999 590.1999999999999 136.6V141.6Z" class="lg-t"/><path class="lg-c" d="M679.8 229.8V211.0H775.8V229.8Z"/></svg></a>
+<p>Des logiciels de gestion simples, pensés pour un seul métier à la fois.</p>
+</div>
+<div>
+<h2>Logiciels</h2>
+<ul>
+<li><a href="grigne.html">Grigne, gestion de boulangerie</a></li>
+<li><a href="incopilot.html">IncoPilot, suivi des consommations</a></li>
+</ul>
+</div>
+<div>
+<h2>Lume Labs</h2>
+<ul>
+<li><a href="index.html#histoire">Notre histoire</a></li>
+<li><a href="index.html#questions">Questions fréquentes</a></li>
+<li><a href="#demo">Demander une démo</a></li>
+</ul>
+</div>
+<div>
+<h2>Contact</h2>
+<ul>
+<li><a href="mailto:contact@lumelabs.fr">contact@lumelabs.fr</a></li>
+<li><a href="mentions-legales.html">Mentions légales</a></li>
+</ul>
+</div>
+</div>
+<p class="legal">© <span id="year">2026</span> Lume Labs. Aucun cookie publicitaire ni de mesure d’audience.</p>
+</footer>
+<script>
+{
+  const btn = document.querySelector('.menu-btn');
+  const nav = document.getElementById('nav');
+  if (btn && nav) {
+    btn.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', String(open));
+    });
+    nav.addEventListener('click', (e) => {
+      if (e.target.closest('a')) { nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
+    });
+  }
+  const EMAIL = 'contact@lumelabs.fr';
+  // Identifiant du formulaire Tally : la fin du lien tally.so/r/XXXXXX. Laisser vide pour garder le formulaire intégré.
+  const TALLY_ID = '';
+  if (TALLY_ID) {
+    const slots = document.querySelectorAll('.tally-slot');
+    for (const slot of slots) {
+      const f = document.createElement('iframe');
+      const params = new URLSearchParams({ alignLeft: '1', hideTitle: '1', transparentBackground: '1', dynamicHeight: '1', produit: slot.dataset.produit || 'Lume Labs' });
+      f.setAttribute('data-tally-src', 'https://tally.so/embed/' + TALLY_ID + '?' + params.toString());
+      f.setAttribute('title', 'Formulaire de demande de démo');
+      f.setAttribute('loading', 'lazy');
+      f.setAttribute('width', '100%');
+      f.setAttribute('height', '520');
+      f.style.border = '0';
+      slot.appendChild(f);
+    }
+    window.addEventListener('message', (e) => {
+      if (e.origin !== 'https://tally.so') return;
+      const data = typeof e.data === 'string' ? e.data : JSON.stringify(e.data || '');
+      if (data.indexOf('Tally.FormLoaded') === -1) return;
+      for (const slot of slots) {
+        slot.classList.add('on');
+        const native = slot.parentElement.querySelector('form.form');
+        if (native) native.hidden = true;
+      }
+    });
+    const sc = document.createElement('script');
+    sc.src = 'https://tally.so/widgets/embed.js';
+    sc.async = true;
+    sc.onload = () => { try { window.Tally && window.Tally.loadEmbeds(); } catch (err) { /* formulaire intégré conservé */ } };
+    document.body.appendChild(sc);
+  }
+  for (const form of document.querySelectorAll('form.form')) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (!form.reportValidity()) return;
+      const d = new FormData(form);
+      const lines = [
+        'Nom : ' + (d.get('nom') || ''),
+        'Entreprise : ' + (d.get('entreprise') || ''),
+        'Activité : ' + (d.get('metier') || ''),
+        'E-mail : ' + (d.get('email') || ''),
+        'Téléphone : ' + (d.get('tel') || ''),
+        '',
+        (d.get('message') || '')
+      ];
+      const subject = 'Demande de démo ' + (d.get('produit') || 'Lume Labs') + ' – ' + (d.get('entreprise') || d.get('nom') || '');
+      const href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
+      const done = form.querySelector('.form-done');
+      if (done) {
+        done.querySelector('a').setAttribute('href', href);
+        done.classList.add('on');
+        done.focus();
+      }
+      try { window.location.href = href; } catch (err) { /* le lien reste affiché */ }
+    });
+  }
+  const y = document.getElementById('year');
+  if (y) y.textContent = String(new Date().getFullYear());
+}
+
+</script>
+</body>
+</html>
